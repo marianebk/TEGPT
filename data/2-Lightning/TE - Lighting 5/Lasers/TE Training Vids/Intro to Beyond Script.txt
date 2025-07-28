@@ -1,0 +1,123 @@
+
+Today we're getting a high-level orientation to the laser software, and the bare minimum steps to get beams out of a connected laser. It assumes you?ve watched our safety and projector setup video. Separate videos will cover performing, troubleshooting, and designing your own laser scenes and animations.
+
+Because the UI is dense, be sure your YouTube is set to stream in HD - this video is recorded in 1080 resolution.
+
+
+This is Pangolin's laser software, called Beyond. It's windows only, and I'm running it in a virtual machine on a mac. If you do that, I highly recommend Parallels over VMware fusion, especially if you have Apple silicon.
+
+The good news is that Pangolin Beyond is really of the only laser software people use, so when you learn this you'll be learning something you can use anywhere. The bad news is, it's like the Pangolin software developer (and I do use the singular there because it feels like someone has trouble playing will with UI/UX designers and information architects) - well, it feel like that person saw Adobe Premiere and was like, "Hey, I don't like how this doesn't have enough features and nested menus, and I want to inject some *personality* into things." and whalla, Beyond was born.
+
+So expect it to be a little overwhelming. You're going to be ignoring large parts of the UI every time we learn how to do something, and that can come with a little anxiety. It's OK, you can learn the parts you need. We record this tutorial as a video so you can re-watch parts if you forget, and you'll really learn it once you're asked to move the mouse yourself.
+
+Here's the big picture overview. We're in the Grid, the main top left button.
+
+These are the other main modes and you won't use them to live VJ a show.
+
+The grid is made up of cues, which are each square you see here.
+
+A Cue is one look, or scene. It can have a simple animation. 
+
+Notice we set up our grid to be 8 by 8, for 64 cues per page; that's going to turn out to be convenient later when we connect external midi controllers, like our F1 and our APC40.
+
+
+Notice we have categories on the left, which are kind of like a folder of different pages of cues. 
+
+We have a category for Burnign Man 2023 going with pages in development. 
+
+The overall set of categories, pages, cues, and several other settings is called our Workspace. We can save and load different workspaces from the File menu, but we have one main one we use for now.
+
+(make new page and save it)
+If you want to create cues for us, you'll need to save your own workspace files separately (I recommend one page at a time) so Jordan or I can check your cues and add them to the main Burning Man workspace.  
+
+You need to transport yourself back to the 90s, even if you weren't born yet - In the 90s, you save often because shit crashes ALL THE TIME and you lose hours of work. This will happen to you, and then you'll be pissed and lose work until you learn to save every 15 minutes. In fact, you probably want to save a different numbered version of the workspace every day, because I've had the workspace file get corrupted several times. Welcome to Windows 98.
+
+Let's go over the other main sections you'll use: Down at the bottom we have our QuickFX. It's really the main place we trigger effects. There's no slowFX or regular effects panel, this is the main spot, though we'll soon find about 12 other places we can also design effects, this is the panel of them that you'll apply flexibly to any of the other cues we build. 
+
+Notice how almost all our cues are build off a red baseline, and if you're our Art Director Tergel, you're freaking out because we said many times, OK SO THERE'S NO RED IN THE OFFICIAL TE PALETTE. 
+
+
+You're right - we start with Red because it's Hue Zero, and we use the first row of Quick FX to shift it into one of our official palettes. In other words, don't let me or Tergel see you running all-red cues! Always have one of these selected when actually performing a show. 
+
+Continuing the overview, the top right box is the laser preview window. I have it configured to show all 12 of our lasers. It's the main way you'll see what you're designing and what Beyond thinks is being output to the lasers. 
+
+The bottom right is a series of tabs that are mostly about changing something about the way the cues are going out to the lasers, and you won't need to use them a lot. 
+
+For example, we can recolor to a single color here, 
+
+or move the output left/right/up/down, but we really won't use these a ton.
+
+If you mess something up, a right click on it usually resets it.
+
+
+Since there are about 75 layers and places where we can apply effects, I will point out that the selected cues? additional effects are shown in this effects tab, and it follows what you have selected.
+
+So when I select different cues, you'll see a different set of effects in play. For the most part, we try to avoid using effects on our cues at this level, and I'll show you where we apply most of our cues' effects later. 
+
+This is, however, the main place to view and edit the effects for our QuickFX panel. So if I'm wondering, how did Jeff design this color inthe QuickFX, click the FX Cell and then go over here. 
+
+Notice it's handy to disable any effects from being active right now by toggling it's green checkmark or red X.
+
+So now that we have the big picture map, and we know where our cues are, I'm going to quickly come back up to our main button bar and just note a few key modes to check if things aren't outputting the way you expect. 
+
+For now, make sure this is on Toggle mode, not Select, Restart, or Flash. We can come back later to see what all these do. 
+
+Notice Transitions are Off, and notice we have group mode enabled. Right click to verify that it's in groups of 4 columns. For now, just notice that groups are assigned colors in the borders and the color behind the Cue Name. - here we see a plum colored four columns on the left and gold on the right.
+
+Rounding out the top bar we have the tempo area - most of our animations are designed be synced to something in terms of beats, not seconds. During our live performances, this tempo is being constantly updated from the DJ decks. For now during practice, you can tap out a new tempo to something you're listening to with the spacebar. Right click to enjoy too many options.
+
+Virtual LJ is what you're going to turn on when you need to take a break. You'll load a Virtual LJ page, notice we have colors other than red applied, and Enable VLJ to see it advance cues automatically, making a playlist out of the page. More on this later. 
+
+Two last important buttons in this top button bar: Blackout, and The Enable/Disable output toggle. Blackout stops all running cues. It's so important that we have it one of the few buttons defined on our MIDI controller. When you run a show, your lasers will have very little emotional impact unless you are spending some time with no lasers on. Use this button to turn them off. It's also a helpful button for when you just don't understand why things look weird coming out of the lasers: you probably have multiple cues or QuickFX running by accident, and this resets them all.  
+
+The laser output button must be enabled to see any laser output, and it serves as a reset, or kind of Software E-Stop if you just don't like what's being output. You still need a physical estop button within reach.
+
+With the main UI behind us, let?s get some laser output.
+
+To do this, Pangolin needs to see a network connected projector with every safety switch enabled, 
+
+software license registration, 
+
+the software laser enable, 
+
+and a running cue directed to a projector via something called a projection zone.
+
+Beyond needs to be able to detect at least one laser projector on the network. You'll know it sees one if you see an FB4 card in this bottom bar, blinking some network traffic. 
+
+It also shows in the license manager.
+
+I'll plug in the connected laser now, 
+
+
+We have to remember to do keys, interlock, estop, start... 
+
+Notice how long it takes to come up ? about 25 seconds. 
+
+While we wait, it needs to have our internet license activated for this running copy of Beyond. That's here...
+
+The password will be given to you if you've completed these trainings. You can find it in the Lasers area of Notion on a page that has limited access granted to those who have passed the quiz for this training. Since registration lasts for two weeks when offline, this should already be done for you when you perform your laser shift at the burn. The main reason you'll need it is if you are making laser cues and want to save them in a workspace. It won't let you save anything without an active license. That looks like this. 
+
+You also might need the password if you somehow find it unregistered during a live show, which really shouldn't happen. Now that we?ve logged in and done ?start use?, this computer is our one and only copy of Beyond that can be outputting laser shows and saving....
+
+Our license is expensive, and if you leave it registered after you're done saving content, you will lock out other people on our team from being able to save their work on different computers, so PLEASE remember to log out and you're done for the day and have saved your work. The exception is on-playa ? you can leave it logged in while we?re at Burning Man.
+
+
+So now noticing that the Network is seeing one projector, we can enable output in the top right.
+
+And activate a cue.
+
+Now, I?m not seeing output, so clearly something?s wrong with the output routing through the projection zone. A few places to check for problems, and?
+
+There we go!
+
+The next video will cover troubleshooting situations where we?re not seeing the output we expect. Thanks for making it to the end, you earned a yellow laser star.
+
+
+
+
+
+
+
+
+From here, we'll start looking at some of the critical menus that hold settings that could prevent us from seeing laser output at all, or from seeing laser output where we expect it.
+

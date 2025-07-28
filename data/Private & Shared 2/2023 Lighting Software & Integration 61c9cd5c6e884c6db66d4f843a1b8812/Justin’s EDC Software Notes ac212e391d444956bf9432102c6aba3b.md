@@ -1,0 +1,91 @@
+# Justin’s EDC Software Notes
+
+- [ ]  **SOFTWARE FEATURES**
+    - [ ]  Views: Per-pattern works great
+    - [ ]  Color
+        - [ ]  Color per-channel was NOT perfect
+        - [ ]  Need the consistency of a primary color swatch, with the ability to do a handoff to a different color swatch. (Is this just A/B color swatch in global palette?
+        - [ ]  Color Palette
+            - [ ]  Retire the 1,2,5 color palette positions?
+            - [ ]  Could add a position for [laser color, beacon color]
+        - [ ]  Do we need a dedicated Color Palette iPad/midi controller?
+    - [ ]  Blending was improved but still not perfect?
+    - [ ]  Custom OSC outputs (LaserTask, CrutchOSC) need to respect LIVE button, or dev laptops on the network create colliding OSC traffic
+    - [ ]  Add-All patterns tool was useful. *6/6/23 updated to do only TEPerformancePatterns
+    - [ ]  MultiplierModulator
+        - [ ]  Super useful
+        - [ ]  But needs tuning, and output adjustment
+    - [ ]  TE nice to have: add module to poll controller performance in UI
+        - [ ]  Re: @Jeff Per Eli, controllers expose metrics (including # artnet packets received, # out of sequence packets) that can be retrieved by opening a websocket to port 81 on the controller and sending a json query.  Because it’s a count metric and not a percentage, info has to be polled on a regular interval to calculate percentages.  The nice-to-have would be to get this info visible within LX.
+- [ ]  **LX NOTES**
+    - [ ]  UI readability is a big limitation on the older version of LX pre-zoom feature.  Recommend getting onto Chromatik.
+        - [ ]  Especially when combined with screen sharing so the window isn't perfectly matched
+    - [ ]  LX: Need to be able to Add Pattern in performance mode
+- [ ]  **ISSUES WITH PROJECT FILES created in Dev environment and used in Live environment**
+    - [ ]  Remembering to change OSC input from INT to OSC
+    - [ ]  Midi controllers aren't enabled on a project if Dev didn't have them
+    - [ ]  Could be nice to allow a splash screen on project file open to show a checklist of setup reminders (change MFT to Aux)
+- [ ]  **NON-LX SOFTWARE**
+    - [ ]  Showkontrol is unstable, fills computer memory every three hours
+        - [ ]  Related to MAX script?
+        - [ ]  Doesn't do a good job anyway
+    - [ ]  MaxMSP: excellent tool, now that we know how to use it
+    - [ ]  Pioneer network: Mostly good, except no way to troubleshoot failures with unmanaged switch and no router.  (The last night we lost it after 3am)
+- [ ]  **FRAGILITY**
+    - [ ]  GL4 crashes (now fixed?)
+    - [ ]  Check to make sure new tools need to handle channels moved
+    - [ ]  Turn pointCloud back on for more testing
+    - [ ]  AutoVJ start
+        - [ ]  Possibly related to APC40 user button
+    - [ ]  APC40 user button
+        - [ ]  Risks with save/open?
+        - [ ]  Just need to fix it
+    - [ ]  There were crashes that seemed to be induced by the live environment receiving high volume OSC during startup.  As if one of the OSC listeners was not OK to run before engine/ui fully loaded.
+    - [ ]  iPads not always connecting.  Was always one of these:
+        - [ ]  MaxMSP file was an old one prior to the iPad IP addresses getting set
+        - [ ]  ShowKontrol filled the computer memory so OSC relay wasn't happening
+- [ ]  **VJ NAVIGATION**
+    - [ ]  Overall: Setup GOOD with Laptop stand, APC40 on tilt blocks (need non-slip), MFTs + iPads
+    - [ ]  MFTs - work great, indespensible
+        - [ ]  Would benefit from additional tuning of parameters with exponent
+        - [ ]  Angle parameter could use a turn-faster move-faster setting
+    - [ ]  Need a way to set up MFTs (or any controller) to start enabled, even if project file is set up on a different laptop
+    - [ ]  Setting the APC40 channel knobs to adjust the active pattern (when fader=0) was a navigation LIFESAVER for long pattern lists.  Consider as addition to APC40 in framework.
+        - [ ]  *Need knob lights to work.  *Justin has this in progress.
+    - [ ]  APC40 is not the most optimal tool for pattern navigation, although works ok when combined with channel knob
+    - [ ]  iPad heads-up displays
+        - [ ]  Seemed to be great?
+        - [ ]  Will be better with refinements of TouchOSC layout:
+            - [ ]  Visual toggle box for boolean parameters (like LX UI)
+            - [ ]  Hide unused parameters
+            - [ ]  Auto-display two MFTs if > 16 parameters
+            - [ ]  [eventually] allow targeting effects too?
+            - [ ]  More obvious Cue/Aux selection
+            - [ ]  Two-directional
+            - [ ]  Show time-based connectivity indicator that is not just beat flashing
+            - [ ]  Help button with setup recommendations
+        - [ ]  Seemed more fragile than they were due to ShowKontrol crashing constantly
+        - [ ]  MaxMSP is a great bridge tool to multiple OSC clients, currently.  But would be ideal to allow multiple client setup within LX.
+        - [ ]  Note iPads are picky about USB-C dongle compatibility
+    - [ ]  Do we need a dedicated Color Palette iPad/midi controller?
+    - [ ]  Need more stable/taller monitor holder for main laptop 2nd monitor
+    - [ ]  Keegan wants midi controller on each side with a button to jump to specific view
+- [ ]  **FOH PHYSICAL DESK**
+    - [ ]  Was a lot of plugging stuff together every day
+    - [ ]  Need quick rain cover option
+- [ ]  **FOH OPERATORS**
+    - [ ]  There is not always a person who wants to run the setup.  AutoVJ working would mainly solve this problem, just couldn't troubleshoot it mid-show at EDC.
+- [ ]  **NETWORK NOTES**
+    - [ ]  BomeBox: very reliable, except with network change needs to restart EVERYTHING
+    - [ ]  Hardline ethernet is better framerate than wireless on screensharing LX UI
+- [ ]  **DEVICE OWNERSHIP FROM EDC**
+    - [ ]  OWNED BY TE
+        - [ ]  Laptop
+        - [ ]  2nd monitor (although used Justin's mostly)
+        - [ ]  APC40
+        - [ ]  MidiFighterTwisters
+    - [ ]  NOT OWNED BY TE
+        - [ ]  iPads (1 was Justin's, 1 Eli's)
+        - [ ]  iPad stands
+        - [ ]  iPad dongles/power adapters (40watt+ each)
+        - [ ]  APC40 tilt blocks

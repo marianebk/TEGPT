@@ -1,0 +1,4 @@
+# TE-FOH-APCMINI2
+
+Name: APC Mini
+Serial: (21)А42312256031632

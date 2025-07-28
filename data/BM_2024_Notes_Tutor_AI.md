@@ -1,0 +1,529 @@
+# BM 2024 Notes - Tutor AI Version
+
+BM 2024 Notes - JKB
+Brain dump on what we did, what worked and didn’t work, and ideas for improvements.
+Highlights
+•
+[ ] Software stability. Chromatik was solid on both cars.
+•
+[ ] Audio Stems was amazing and stable.
+•
+[ ] Mothership is a REALLY nice folding table.
+•
+[ ] New patterns are great.
+•
+[ ] Director position was a great addition.
+Mothership Desk
+•
+[ ] New desk is amazing and high end despite being a last minute add from Brian.
+◦
+[ ] Liked: height, space between desk and window for ﬁshing wires, room to crawl 
+underneath and sit up behind the computer trays while sorting cables.
+•
+[ ] We didn’t get the front covers installed on trays. Bandwidth limited.
+•
+[ ] Operator positions and monitor contents seemed great. We did:
+◦
+[ ] 4-5 operators: MShip LED; TE LED; Director; Laser 1; Laser 2?
+◦
+[ ] 5 monitors: MShip Chromatik; TE Chromatik; DJ waveforms; Laser 1; Laser 2
+•
+[ ] Standing seemed ﬁne for operators. (Add to post-burn survey?) The two folding 
+director-height (tall) chairs were a nice amenity.
+•
+[ ] There are two storage bays under the desk. We used left side for TE LAN items and 
+right side for Mothership LAN items.
+◦
+[ ] Two power strips were needed in each side. Ideally the switches on them 
+would be better protected.
+◦
+[ ] Could use an additional shelf/mini-rack on left (TE) side.
+◦
+[ ] Could be nice to have power routing for bays built into the desk. As in: it 
+would be better to not need to run an extension cord from the bays to the [yellow 
+contractor box]
+Mothership Desk Components
+•
+[ ] Driving Mothership rattles the bejeezus out of the desk. Everything including 
+monitors, controllers, and computers are haywire on arrival. Plugs rattle loose and there 
+are a LOT of things plugged in so it’s hard for a non-expert to troubleshoot why things 
+aren’t working.
+•
+[ ] Monitor stands (Humanmade) were great when not driving but they don’t lock and are 
+designed to mount on a perfectly level desk. They swing around in transit.
+◦
+[ ] Idea: build a monitor cabinet that holds them in one position, or
+◦
+[ ] Get monitor stands that lock
+•
+[ ] Monitors were nice quality, 28” 1080p. IMO they were too big. I think we would be 
+better off with smaller (24”) higher resolution (4K) monitors. The 28” consume a lot of 
+the visual ﬁeld.
+•
+[ ] Monitors were nice quality, 28” 1080p. IMO they were too big. I think we would be 
+better off with smaller (24”) higher resolution (4K) monitors. The 28” consume a lot of 
+the visual ﬁeld.
+•
+[ ] We ran the standard midi setup (APC40 + two twisters) at the MShip-LED station. 
+This wasn’t the plan but people had a great time running it and it usually had an operator. 
+Would do again.
+•
+[ ] We added a power strip + phone adapters at the leftmost end of the desk for a crew 
+phone charging station. That worked great.
+•
+[ ] MX Master 3S mouse performed great. Maybe is more dust resistant than other 
+models?
+•
+[ ] Wireless mechanical keyboard was great although spacebar got dislodged on the ﬁrst 
+day. Maybe crashed into something while driving? Reinstalled key, maybe is ok.
+•
+[ ] Could beneﬁt from a system to prevent devices from sliding around too much. Anti-
+slip pads? Full gridﬁnity desk surface? Metal desk with magnets glued to the bottom of 
+every device/stand?
+•
+[ ] Too many components to assemble for FOH setup. How to ﬁx?
+◦
+[ ] It took me (JKB) 7 hours to plug it all together while trying to keep the wires 
+tidy.
+◦
+[ ] Sooo many different controllers and components on the desk.
+◦
+[ ] We didn’t run the iPads. We were saturated with components and they weren’t 
+stable for driving.
+◦
+[ ] I (JKB) am revisiting design ideas about a dedicated Chromatik midi console.
+•
+[ ] Need more USB-C extensions, 4x 6’. With the iPads not in use their extensions got 
+hijacked for other things, like extending USB hubs for the end stations.
+•
+[ ] Laser components all need extensions, they are all further from the bay than normal 
+cord length.
+•
+[ ] Smashed a HDMI cable on the ﬁrst drive. And one or more monitors was run with a 
+USB extension + Hub with HDMI + short HDMI cable. Need more HDMI cables and 
+they should all be at least 6’ and a few at 10-12’.
+•
+[ ] Need more length on C13 monitor power cables too.
+•
+[ ] Hubs hanging free behind the desk due to short cable lengths were vulnerable to 
+pulling apart (unplugging) during drives. Hubs need to live in bays or on a special shelf 
+just under back edge of desk.
+•
+[ ] USB-C plugs rattled out of Mship-LED at least once.
+•
+[ ] Laser NUC rattled onto power strip switch at least once.
+•
+[ ] One of the monitors is washed out (too bright), needs replaced. We found it easier to 
+see with Light theme in Chromatik.
+•
+[ ] 3D-printed midi controller stands from Jeff were excellent.
+◦
+[ ] Iterative improvement ideas:
+▪
+[ ] Could the midi controller be ﬂipped over so the stand doubles as impact 
+protection during transport?
+▪
+[ ] Or, could stand disassemble to save space in transit? Or maybe the 
+space isn’t a big deal and it’s nice they’re already assembled.
+Desk component packing & transport
+•
+[ ] I recommend the DeckSaver cover + laptop sleeve for APC40, and DJTT cases for 
+MFTs. Then the controllers can be thrown in a normal bin and don’t need the special 
+Pelican gun case
+◦
+[ ] APC Decksaver: https://a.co/d/ebFt5ju
+◦
+[ ] APC Decksaver: https://a.co/d/ebFt5ju
+◦
+[ ] MFT cases: https://store.djtechtools.com/collections/midi-ﬁghters-midi-ﬁghter-
+accessories/products/chroma-cases-midi-ﬁghter
+•
+[ ] Need zippered “hardshell” cases for mship-led and lighting-10 computers.
+•
+[ ] Wire organization system from Jeff was great (cables by type). Could use even more 
+zippered cases to minimize chaos in large bins.
+Mothership network
+•
+[ ] Mship / TE network division seemed to work great overall, thanks Jeff!
+•
+[ ] BUT: it felt like we couldn’t test most of the components without the link to main car, 
+which was bottlenecked behind: build delays → heavy equipment working around main 
+car → waiting for the main generator to be turned on → car network rack to be set up, 
+etc.
+•
+[ ] Could this be improved by VLANing TE lighting & Mship Lighting? IE could we test 
+Director controller’s connection to Mship-LED and lasers without link to main car, if the 
+mShip router/switch was aware of the VLANs?
+Mothership windows
+•
+[ ] After a couple days “we” (aka AJ) removed the mothership windows in front of VJ 
+station for visibility and audio improvement. IMO it helped a lot. But it did get cold later 
+in the night. Ideally those windows would be hinged.
+Software
+•
+[ ] Chromatik stability was excellent. I never saw or heard of a single frame stutter or 
+crash.
+•
+[ ] Audio Stems were amazing. Stability was rock solid.
+•
+[ ] If you’re not exactly sure when a drop is coming, it works great to run a pattern with 
+heavy Audio Stems modulation. This also frees up your hands for high-ﬁving people 
+about how awesome you’re doing.
+•
+[ ] New 3D engine looks REALLY good on Mothership.
+•
+[x] We ran the 3D branch on mothership and main branch on TE. We decided on playa 
+that we could merge and run the same branch on both, but ran out of time to do it. We 
+already had both cars online with separate branches, before the cars were linked, with 
+conﬁg adjustments happening on each car. We left them on their own branch.
+•
+[x] Need to push changes from the two car computers to the two branches, then merge.
+•
+[ ] Last-minute User Presets feature is great but needs midi controller integration. For 
+example: browse the pattern list with the APC top knob, and then browse the presets with 
+another knob or Shift + APC top knob.
+◦
+[ ] Need the pattern’s default in the User Presets list. Sometimes you want a clean 
+version of the pattern with no modulation.
+◦
+[ ] Need the pattern’s default in the User Presets list. Sometimes you want a clean 
+version of the pattern with no modulation.
+◦
+[ ] Need ability to add/browse user presets in Performance mode
+•
+[x] Need the SuperMod controller for adding audio stems on the ﬂy. We merged the code 
+but couldn’t get the controller connected. Need to sort out and document the Bomebox 
+setup for that one. We were attempting to set it up during active shows which makes 
+things harder.
+•
+[ ] Color Palette Manager
+◦
+[ ] Color offsets are a great improvement
+◦
+[ ] Need to add palette transition controls (ui elements) to UIColorPaletteManager
+◦
+[ ] Color crossfade wasn’t working. Need to implement or just turn on? Ideally 
+crossfade time would be adjustable from the Director midi surface, measured in 
+number of beats.
+◦
+[ ] I have some in-progress code on color palette manager improvements
+•
+[x] Need multiple OSC destinations, with ﬁlters. Likely this could replace Max and 
+reduce our surface area for connectivity problems.
+•
+[ ] SimplifyEffect is awesome. We ran it a bunch the last two nights.
+•
+[ ] APC device knobs are great for system-wide settings and effects on the Master 
+channel. Need labels. Ideally we keep them the same on both Chromatiks.
+Beacons
+•
+[ ] Operated the last few nights. They look great. The combo of adjustable color, gobo, 
+and movement sets them apart from other beacons on playa.
+•
+Photo from other side of the Man burn circle:
+ 
+•
+[ ] We ran a dedicated Beacon channel on Mothership Chromatik. Worked great and the 
+director fader worked too.
+•
+[ ] We mapped a tempo-synced modulator (2 bars, square wave) to the beacon Tilt 
+parameter.
+◦
+Video of beat sync tilt during Man burn. Note the car is using SimplifyEffect.
+IMG_4445.mov
+•
+[ ] Gamepad changes were made after George’s feedback but we didn’t have a window to 
+pull code to Mothership. Should be much easier to handle now with acceleration joysticks 
+instead of absolute position joysticks.
+◦
+[ ] Need Focus to stay at a set position. Use right-joystick Y-axis for focus?
+•
+[ ] We used JKB’s gamepad but TE may want to buy one: https://a.co/d/815YR2x
+•
+[ ] Bluetooth range for gamepad wasn’t great outside of car. The computer is in a metal 
+box inside a metal-framed car. Maybe add a bluetooth dongle or locate the computer 
+outside of the metal bay? Would be nice if someone could work through this at the 
+warehouse.
+•
+[ ] Bluetooth range for gamepad wasn’t great outside of car. The computer is in a metal 
+box inside a metal-framed car. Maybe add a bluetooth dongle or locate the computer 
+outside of the metal bay? Would be nice if someone could work through this at the 
+warehouse.
+•
+[ ] Beacon color is currently manual from the gamepad, but in theory we could send it 
+CMY from Chromatik.
+•
+[ ] The power connection (neutrik input) for beacons is very tight against the beacon tray. 
+I had to unsafely unscrew the connector clamp on the neutrik cable to get it plugged in. 
+Need a right angle cable or (more space in the bay by moving the mount holes or 
+designing a new side panel?)
+•
+[ ] It’s hard to connect cables after beacons are placed, especially during a party. Can’t 
+see or reach the back of the beacon when balancing on three FOH boxes. Maybe use 
+short cable extensions to the tray that the installer can connect when placing the 
+beacon?
+•
+[ ] Catch-22 with operating the beacon menu and installing the last tray cover to protect 
+our eyes. We need a little door that opens so you can use the device menu.
+◦
+[ ] Our orientation of beacons was good: menu buttons face down aka towards 
+ends of mothership.
+•
+[ ] Software TODO: need to be sure beacons enter Sun Protection Mode at shutdown.
+◦
+[ ] Test behavior on network cable disconnect (such as power loss or hard 
+shutdown)
+◦
+[ ] On clean Chromatik shutdown, send a ﬁnal frame to beacons to enter Sun 
+Protection Mode.
+◦
+[ ] Also at sunrise when car is still operating (when beacon channel has been 
+turned down for 5 min?)
+•
+[ ] 22.5 degree angle of beacon tray makes it hard to software-enforce a safety zone 
+where beacons don’t hit the ground. The latest safety limit allows 45% of range away 
+from straight-up tilt, which restricts them to 15 degrees(or was it 25 degrees?) above 
+horizontal when aimed straight out. But it means we’re more limited in the up-direction 
+tilt than necessary.
+•
+[ ] Wish list, obviously: Chromatik visualizer preview of DMX ﬁxtures
+Director position
+•
+[ ] IMO: the new position is a great add to our setup
+•
+[ ] High value: director constantly watching the waveforms and calling out changes.
+•
+[ ] We made moderate use of edge/panel faders and (light?) use of laser fader.
+•
+[ ] Need to label the faders pre-event. 3D printed snap cover labels?
+•
+[ ] Add visual indicator of most recently pressed color button? Flash it?
+•
+[ ] Could we arrange the color grid so a particular movement pattern always goes to a 
+complementary color? Would be nice to use the 2D layout to help us less-color-gifted 
+people.
+•
+[ ] Use Scene buttons for color crossfade length? (1 beat, 2 beats, 1 bar, 2 bars)
+•
+[ ] Use Scene buttons for color crossfade length? (1 beat, 2 beats, 1 bar, 2 bars)
+•
+[x] On last night, director controller would sometimes stop working. To reset we had to 
+unplug, replug, and cycle off/on in Chromatik. Possibly related to all the mucking around 
+I did in Bomebox trying to get the SuperMod controller working?
+◦
+[x] Also check: did we max out the amount of MIDI power that can be supplied 
+from one Atolla USB hub?
+•
+[x] To consider: Set laser color from software? Beneﬁts:
+◦
+[ ] It would be easier to swap Director controller for an external GrandMA 
+console at an event.
+◦
+[ ] Less bomebox muckery
+◦
+[ ] We could automate everything from software including laser color
+Network: Car-Car link
+•
+[ ] We ran the hardline link cable every day. I know and am sorry this fell short of Jeff’s 
+vision. On the bright side: it worked great, no perceived lag, didn’t seem to be an issue 
+for the crew to set up or take down.
+•
+[ ] I never found the dish mount bracket for the main car side of the wireless link. Lots of 
+setup tasks spilled over into the week and I wasn’t motivated to continue searching when 
+the wired link was working well.
+•
+[ ] Length of the hardline cable was tight if it was run outside of the Haulle wheels. It was 
+easier to reach when run straight under the car and directly to Mothership.
+•
+[ ] Network cable connectors at the mothership window were not ﬁnished so we ran the 
+cable up to the 2nd ﬂoor every day.
+•
+[ ] Would be nice if wired+wireless links could be used in aggregate, instead of only one 
+at a time. Would be easier for less experienced people to manage and would create more 
+“automatic” redundancy.
+Network: General
+•
+[ ] Aside from physical connection issues, the networking gear ran as designed and did 
+not give us any trouble. It was very helpful all this was set up pre-playa.
+•
+[ ] We had numerous physical connection issues, sometimes cables and sometimes ports. 
+Unknown if any of the cable issues were wire damage or if they all were connector 
+problems.
+•
+[ ] Cables with a broken retainer clip should be thrown away. They are a liability, might 
+vibrate loose after the car drives somewhere.
+•
+[ ] The most critical failure (although easier to ﬁnd than a smaller problem) was the short 
+ethernet jumper from rack switch → rack UDM Pro router. I replaced the cable and used 
+a new port on both ends. I think i tested the same cable with different ports but can’t 
+remember exactly.
+•
+[ ] NEED: a bin of short patch cables that lives next to the rack for replacing failures. I 
+used the ﬁrst thing I could ﬁnd for some ﬁxes and a few uncoiled 10’ ethernets in the mix 
+quickly turns to chaos.
+•
+[ ] NEED: an established and widely known tune-up method for failing network ports. 
+Maybe there is a magic combo like power off + canned air + contact cleaner?
+•
+[ ] The rack is exposed to a ton of dust on the back of the car, often existing for long 
+periods of time with the door open as both lighting and audio share the access panel.
+•
+[ ] The rack is exposed to a ton of dust on the back of the car, often existing for long 
+periods of time with the door open as both lighting and audio share the access panel.
+•
+[ ] The rate of physical ethernet connection failures is unsustainable. It too frequently 
+impairs our performance and generates too much maintenance work for the network-
+knowledgable person(s).
+•
+[ ] PROPOSAL, discussed already with a number of the event crew
+◦
+[ ] Turn the ice lounge into a server / network rack / ampliﬁer room.
+◦
+[ ] The climate control and shielded entry will greatly reduce dust exposure and 
+hopefully will minimize connection problems
+◦
+[ ] This might still be compatible with prior functions of the room
+DJ Link
+•
+[ ] DJ network was plagued by problems this year, almost entirely physical connection 
+issues although a little was ShowKontrol bullshit at the beginning. I have a couple 
+proposed changes to deal with this…
+•
+[ ] DJ Link network issues occurred (daily?). They included:
+◦
+[ ] Network cable connection from DJ switch → rack switch, at the rack ethernet 
+plug. Sometimes this needed to be fully reset and one time it just needed to be 
+pushed in further. ::facepalm::
+◦
+[ ] Network cable connection from rack switch (DJ VLAN) to showkontrol-3 
+USB dongle, on both ends of cable.
+◦
+[ ] Issues with ShowKontrol-3 USB dongle. Eventually it was swapped out.
+◦
+[ ] Suspected issues between ShowKontrol-3 mac mini and USB-A port in the 
+rack. Eventually bypassed and added a new USB-C dongle directly to the back of 
+the mac mini.
+◦
+[ ] Network cable failure on CDJ #2 between CDJ and DJ switch. Easy ﬁx when 
+one of them is not visible on the DJ network, but unsure what exactly had failed 
+in the connection.
+◦
+[ ] Backpacks and coats under the DJ booth pull down on the critical network 
+cable linking the DJ switch to the main rack, sometimes making it not work.
+◦
+[ ] On Friday night someone set a coat/backpack on the yellow extension cord reel 
+under the DJ table, hitting the power switch on the reel and turning the power off 
+to the DJ switch.
+▪
+[ ] I was notiﬁed by runner halfway(?) through the night that the DJ 
+network was down. Music was playing on Long Feng at the time. Reading 
+the whatsapp later it sounded like TE may have had audio issues but don’t 
+know if this was related.
+▪
+[ ] To ﬁx, I added a personal power strip that didn’t have a switch and 
+bypassed the yellow reel. I also jumped at the opportunity to swap out the 
+8-port DJ switch for a white 16-port switch. I had become suspicious of 
+the other switch’s reliability.
+▪
+[ ] DJ network worked ﬁne the rest of the night
+•
+[ ] PROPOSAL, as discussed with Kian:
+◦
+[ ] All DJ Link network cables, switch, connections, and related gear should live 
+in a protected space with cabinet doors separate from where guest coats/
+backpacks/anything are stored. Problems caused by physical impact to the 
+network connections or power switches are completely avoidable.
+◦
+[ ] All DJ Link network cables, switch, connections, and related gear should live 
+in a protected space with cabinet doors separate from where guest coats/
+backpacks/anything are stored. Problems caused by physical impact to the 
+network connections or power switches are completely avoidable.
+◦
+[ ] In the current setup it looks like the top right shelf (10-12” high?) with the 
+addition of doors would work great for this purpose.
+◦
+[ ] Large bottom left cabinet could remain available for artists’ coat/backpack etc
+•
+[ ] DJ Link software notes
+◦
+[ ] As observed by myself and @Will Drevo, BeatLinkTrigger was a lot more 
+resilient to the physical connection issues than ShowKontrol. A number of times 
+we were able to get waveforms out of BLT but not SK.
+◦
+[ ] We mostly ran BLT except a couple times when the system auto-started to SK 
+and the ﬁrst shift didn’t know to change it over. I don’t think we got around to 
+modifying the auto-start items.
+◦
+[ ] It feels safe to sunset SK
+•
+[ ] ROADMAP PROPOSAL
+◦
+[ ] BLT is lightweight and could be run on lighting-1. I’ve run it alongside 
+Chromatik/LX Studio on my laptop for years without issue, including on older 
+intel macbooks.
+◦
+[ ] If we can build better OSC routing into Chromatik we could remove MaxMSP 
+from the picture
+▪
+[ ] That would greatly reduce the surface area for broken stuff out of sight
+◦
+[ ] Then we don’t need ShowKontrol-3.
+◦
+[ ] The screen share from lighting-10 to lighting-1 could connect both monitors. 
+Put Chromatik on the left and BLT on the right, as before. It would be less hassle 
+than a different screen share session on each monitor.
+Audio Network
+•
+[ ] On [Thursday?] the audio team was having issues with their network. I was told the 
+Mikrotik audio router was using an under-amperage power supply so couldn’t supply the 
+POE for the access points. I didn’t have time to question it but added a ubiquiti POE 
+injector to the rabbit ears AP and they were up and running.
+•
+[ ] On Friday crunch time pre-departure from camp: Audio team was on their wiﬁ and 
+getting an IP (ie connection to router for DHCP was good) but couldn’t reach their 
+devices. In the few minutes as the car was departing camp I swapped out the Microtik 
+audio router for a personal spare GLi.NET, set the IP settings to match the Microtik, but 
+with wiﬁ direct to the router. At the last second they were up and running.
+•
+[ ] TODO: determine WTF with the Microtik power supply. Reconnect audio network to 
+normal devices once the issues are sorted out.
+•
+[ ] Unsure why audio has two APs with different network names. Just put one AP on the 
+bottom side of the upper deck, ie above the DJ’s heads, and the audio iPad will be able to 
+see it from both sides of the car.
+Build
+•
+[ ] Build process improvements discussed in design session with @INACTIVE Keegan
+◦
+[ ] Build delays are cumulative, but a lot of the compression gets pushed onto the 
+last steps (things like networking/software/conﬁg).
+◦
+[ ] Awareness of overall build ﬂow, especially cross-team prerequisites, generally 
+exists in the heads of only a few experts
+◦
+[ ] Awareness of overall build ﬂow, especially cross-team prerequisites, generally 
+exists in the heads of only a few experts
+◦
+[ ] It is hard for people to see [and therefore mitigate] the impact of a particular 
+build delay. And if an expert does see a delay, it’s hard to distribute that 
+knowledge with all the asynchronous activity happening.
+◦
+[ ] A build gantt chart could help
+▪
+[ ] Anyone could look ahead past the current tasks and anticipate ways to 
+speed things up for the next round of tasks
+▪
+[ ] We could see our current progress relative to where we expected to be
+Key improvements
+•
+[ ] Simplify. There are lots of systems, components, and connections. Part of the the 
+normal growth cycle I’m sure. But it would help to optimize and distill them down.
+•
+[ ] Reduce dust/environment exposure to physical network connections
+•
+[ ] Move DJ switch & DJ power strips to protected cabinet space
+•
+[ ] [Continue to] make systems more automatic, more plug-and-play. Reduce dependency 
+on experts to troubleshoot every type of loose connection.
+•
+[ ] Improve Mothership desk components & connections resiliency to vibration
