@@ -20,7 +20,7 @@ Settings.chunk_size = 512
 Settings.chunk_overlap = 50
 
 # Define paths
-DATA_DIR = "/Volumes/FOUNDERSBAY/data"
+DATA_DIR = "./data"
 INDEX_DIR = "./storage"
 
 # Streamlit UI setup
